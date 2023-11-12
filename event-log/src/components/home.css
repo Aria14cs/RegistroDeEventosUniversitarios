@@ -1,0 +1,35 @@
+ body{
+   margin:0;
+ 
+ }
+ 
+ .container{
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    background:#7be5e5;
+    width:100%;
+    height:auto;
+    margin-right:-80px;
+
+ }
+
+ img {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+   position: absolute;
+   top: 50px; 
+   right: 10px; 
+
+   background-color: #007bff;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 4px;
+   margin: 5px;
+}

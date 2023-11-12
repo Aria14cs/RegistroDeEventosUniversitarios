@@ -1,0 +1,18 @@
+.app-container {
+  display: grid;
+
+
+}
+
+.sidebar {
+  width:70px;
+  height:100px;
+ background:red;
+  padding: 20px;
+  height:auto;
+}
+
+.main-content {
+  flex: 1; /* Para ocupar el espacio restante */
+  padding: 20px;
+}
