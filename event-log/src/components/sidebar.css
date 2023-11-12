@@ -1,9 +1,19 @@
+.sidebar{
+  background: #F3EEED;
+}
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
 
-.sidebar {
-    display:grid;
-    width:1000px;
-    height:100px;
-   background:rgb(31, 28, 28);
-    padding: 20px;
-    height:auto;
-  }
+.sidebar ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px; /* Espacio entre cada elemento */
+}
+
+.sidebar img {
+  width: 24px; /* Ancho de la imagen */
+  height: 24px; /* Altura de la imagen */
+}

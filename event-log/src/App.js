@@ -1,16 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
-import AppRoutes from './components/Routes'; // Asegúrate de que la ruta sea correcta
-import Sidebar from './components/Sidebar'; // Importa el componente de la barra de navegación
+import Sidebar from './components/Sidebar';
+import AppRoutes from './components/Routes';
 
 function App() {
   return (
     <Router>
       <div className="app-container">
-        <Sidebar /> {/* Agrega la barra de navegación aquí */}
+        <Sidebar /> {/* Aquí se coloca la barra de navegación o Sidebar */}
         <div className="main-content">
-          <AppRoutes /> Utiliza el componente de rutas aquí
+          <AppRoutes /> {/* El componente de rutas para el contenido dinámico */}
         </div>
       </div>
     </Router>
@@ -18,3 +18,4 @@ function App() {
 }
 
 export default App;
+
