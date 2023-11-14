@@ -1,26 +1,20 @@
 import React from 'react';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
-import AppRoutes from './components/Routes'; // Asegúrate de que la ruta sea correcta
+import Sidebar from './components/Sidebar';
+import AppRoutes from './components/Routes';
 
 function App() {
   return (
-   
-    <div className="App">
-      <header>
-      <div className="App">
-      <header>
-        <NavigationBar /> {/* Aquí se inserta la barra de navegación */}
-      </header>
-      {/* El resto de tu aplicación */}
-    </div>
+    <Router>
+      <div className="app-container">
+        <Sidebar /> {/* Aquí se coloca la barra de navegación o Sidebar */}
+        <div className="main-content">
+          <AppRoutes /> {/* El componente de rutas para el contenido dinámico */}
+        </div>
+      </div>
+    </Router>
   );
-};
-      </header>
-      {/* El resto de tu aplicación */}
-    </div>
-  );
-};
-
+}
 
 export default App;
