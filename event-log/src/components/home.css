@@ -1,3 +1,6 @@
+boy{
+   margin: 0;
+}
 .container {
    margin-top: 50px;
    background: #E7FAF7;
@@ -5,8 +8,6 @@
    place-items: center; /* Centra el contenido vertical y horizontalmente */
    width: 100%;
    height: auto;
- 
- 
 }
 
 .sidebar {

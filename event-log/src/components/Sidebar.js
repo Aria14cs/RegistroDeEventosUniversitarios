@@ -1,28 +1,23 @@
-
 import React from 'react';
-import { Link } from 'react-router-dom';
-import './sidebar.css';
+import { Link } from 'react-router-dom'; // Si estás usando React Router
 
-function Sidebar() {
+function Sidebar (){
   return (
-    <nav className="sidebar">
+    <nav>
       <ul>
         <li>
-        <img src="/img/home.png" alt="Descripción de la imagen" />
-          <Link to="/">Home</Link>
+          <Link to="/">Iniciohhh</Link>
         </li>
         <li>
-        <img src="/img/evento.png" alt="Descripción de la imagen" />
-          <Link to="/eventos">Eventos</Link>
-
+          <Link to="/about">Acerca de</Link>
         </li>
         <li>
-        <img src="/img/configuracion.png" alt="Descripción de la imagen" />
-          <Link to="/configuracion">Configuración</Link>
+          <Link to="/contact">Contacto</Link>
         </li>
+        
       </ul>
     </nav>
   );
-}
+};
 
 export default Sidebar;
